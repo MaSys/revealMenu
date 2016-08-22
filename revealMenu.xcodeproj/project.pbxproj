@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		43377BD81D6B13A9004B7452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43377BD71D6B13A9004B7452 /* AppDelegate.swift */; };
 		43377BDA1D6B13A9004B7452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43377BD91D6B13A9004B7452 /* ViewController.swift */; };
-		43377BDD1D6B13A9004B7452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43377BDB1D6B13A9004B7452 /* Main.storyboard */; };
 		43377BDF1D6B13A9004B7452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43377BDE1D6B13A9004B7452 /* Assets.xcassets */; };
 		43377BE21D6B13A9004B7452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43377BE01D6B13A9004B7452 /* LaunchScreen.storyboard */; };
+		43377BF11D6B1482004B7452 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43377BF01D6B1482004B7452 /* SWRevealViewController.m */; };
+		43377BF31D6B153C004B7452 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43377BF21D6B153C004B7452 /* MainController.swift */; };
+		43377BF51D6B157A004B7452 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43377BF41D6B157A004B7452 /* DashboardController.swift */; };
+		43377BF71D6B15AA004B7452 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43377BF61D6B15AA004B7452 /* MenuController.swift */; };
+		43377BF91D6B1E92004B7452 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43377BF81D6B1E92004B7452 /* SecondController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43377BD41D6B13A9004B7452 /* revealMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = revealMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43377BD71D6B13A9004B7452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43377BD91D6B13A9004B7452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		43377BDC1D6B13A9004B7452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43377BDE1D6B13A9004B7452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43377BE11D6B13A9004B7452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43377BE31D6B13A9004B7452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43377BEE1D6B1481004B7452 /* revealMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "revealMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		43377BEF1D6B1482004B7452 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		43377BF01D6B1482004B7452 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		43377BF21D6B153C004B7452 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		43377BF41D6B157A004B7452 /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		43377BF61D6B15AA004B7452 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		43377BF81D6B1E92004B7452 /* SecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,18 @@
 		43377BD61D6B13A9004B7452 /* revealMenu */ = {
 			isa = PBXGroup;
 			children = (
+				43377BEF1D6B1482004B7452 /* SWRevealViewController.h */,
+				43377BF01D6B1482004B7452 /* SWRevealViewController.m */,
 				43377BD71D6B13A9004B7452 /* AppDelegate.swift */,
 				43377BD91D6B13A9004B7452 /* ViewController.swift */,
-				43377BDB1D6B13A9004B7452 /* Main.storyboard */,
 				43377BDE1D6B13A9004B7452 /* Assets.xcassets */,
 				43377BE01D6B13A9004B7452 /* LaunchScreen.storyboard */,
 				43377BE31D6B13A9004B7452 /* Info.plist */,
+				43377BEE1D6B1481004B7452 /* revealMenu-Bridging-Header.h */,
+				43377BF21D6B153C004B7452 /* MainController.swift */,
+				43377BF41D6B157A004B7452 /* DashboardController.swift */,
+				43377BF61D6B15AA004B7452 /* MenuController.swift */,
+				43377BF81D6B1E92004B7452 /* SecondController.swift */,
 			);
 			path = revealMenu;
 			sourceTree = "<group>";
@@ -124,7 +140,6 @@
 			files = (
 				43377BE21D6B13A9004B7452 /* LaunchScreen.storyboard in Resources */,
 				43377BDF1D6B13A9004B7452 /* Assets.xcassets in Resources */,
-				43377BDD1D6B13A9004B7452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +150,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43377BF91D6B1E92004B7452 /* SecondController.swift in Sources */,
+				43377BF31D6B153C004B7452 /* MainController.swift in Sources */,
 				43377BDA1D6B13A9004B7452 /* ViewController.swift in Sources */,
+				43377BF51D6B157A004B7452 /* DashboardController.swift in Sources */,
 				43377BD81D6B13A9004B7452 /* AppDelegate.swift in Sources */,
+				43377BF71D6B15AA004B7452 /* MenuController.swift in Sources */,
+				43377BF11D6B1482004B7452 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		43377BDB1D6B13A9004B7452 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43377BDC1D6B13A9004B7452 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		43377BE01D6B13A9004B7452 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,10 +263,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = revealMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.masys.revealMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "revealMenu/revealMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +277,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = revealMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.masys.revealMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "revealMenu/revealMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
